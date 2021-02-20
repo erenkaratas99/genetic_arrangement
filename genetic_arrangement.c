@@ -10,7 +10,7 @@ int j;
 int n;
 int k;
 int genes[50][50];
-int specGene[10] = {2, 2, 3, 1, 4, 1, 3, 4, 1, 2}; //special gene arrangement given in the question
+int specGene[10] = {2, 2, 3, 1, 4, 1, 3, 4, 1, 2}; //special gene arrangement given 
 int sum = 0;
 int ratio[1000];
 int org_i[1000];
@@ -21,7 +21,7 @@ int temp_j;
 int choice;
 int choice_sec;
 int wanted_ratio;
-void Search(int z[50][50]); //the function that search that specific gene arrangement horizontally
+void Search(int z[50][50]); //the function that search the specific gene arrangement horizontally
 void GenerateMatx(int x[50][50]); //the function that generates random matrix
 void Display(int y[50][50]); //the function that displays the generated matrix
 
@@ -76,7 +76,7 @@ int main()
 		{
 			if(ratio[n]==wanted_ratio)
 			{
-				counter++; //this is an feed back mechanism for checking whether if there is an match in the entered ratio
+				counter++; //this is an feedback mechanism for checking whether if there is an match in the entered ratio
 			}			
 		}
 		if(counter!=0) //while counter != 0 there are always at least one match
